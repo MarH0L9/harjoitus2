@@ -51,9 +51,9 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     width: 150px;
-    height:fit-content; /* Cambiado a auto para que la altura se ajuste automáticamente */
+    height:fit-content; 
     background-color: aquamarine;
-    overflow: hidden; /* Oculta cualquier contenido que exceda la altura */
+    overflow: hidden; 
   }
   
   #sisalto {
