@@ -51,7 +51,7 @@ body {
     margin-left: 10px;
     margin-right: 10px;
     width: 150px;
-    height: auto; /* Cambiado a auto para que la altura se ajuste automáticamente */
+    height:fit-content; /* Cambiado a auto para que la altura se ajuste automáticamente */
     background-color: aquamarine;
     overflow: hidden; /* Oculta cualquier contenido que exceda la altura */
   }
