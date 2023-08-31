@@ -46,9 +46,14 @@ body {
   
   /* Määritetään molemmat linkkidivien leveys */
   #navi1, #navi2 {
-    width: 150px; 
-    margin-left: 15px;
-    margin-right:15px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 150px;
+    height: auto; /* Cambiado a auto para que la altura se ajuste automáticamente */
+    background-color: aquamarine;
+    overflow: hidden; /* Oculta cualquier contenido que exceda la altura */
   }
   
   #sisalto {
@@ -57,18 +62,6 @@ body {
     border: 1px solid #0f0e0e;
     padding: 10px;
     border-radius: 5px;
-  }
-
-   
-  /* Float menut divs */
-  #navi1 {
-    float: left;
-    background-color: aquamarine;
-  }
-  
-  #navi2 {
-    float: right;
-    background-color: aquamarine;
   }
   
   /* Style navi linkit ja listat */
