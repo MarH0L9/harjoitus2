@@ -1,0 +1,137 @@
+/* header style */
+
+.header {
+  background-color: #23e379;
+  color: #121111;
+  text-align: center;
+  padding: 1%;
+  margin-bottom: 1%;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.header p {
+  font-size: 18px;
+}
+
+/* Keskitetään ja määritetään divin leveys 1000px */
+#sailio {
+    width: 1000px;
+    margin: auto;
+  }
+  
+  /* Määritetään molemmat linkkidivien leveys */
+  #navi1, #navi2 {
+    width: 150px;
+  }
+  
+  #sisalto {
+    width: 650px;
+    margin: auto;
+    background-color: #2fd46f;
+    border: 1px solid #0f0e0e;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+ 
+  
+  /* Float menut divs */
+  #navi1 {
+    float: left;
+    background-color: aquamarine;
+  }
+  
+  #navi2 {
+    float: right;
+    background-color: aquamarine;
+  }
+  
+  /* Style navi linkit ja listat */
+  #navi1 ul, #navi2 ul {
+    list-style-type:square;
+    margin: 2px;
+    padding: 0;
+    background-color: #f6eded;
+  }
+  
+  .linkkiotsikko {
+    text-align: center;
+    margin: 2px;
+    padding: 0;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+    background-color: #333;
+  }
+  
+  #navi1 a, #navi2 a {
+    text-decoration: none; /*ottaa pois underline*/
+    color: #333;
+  }
+  
+  #navi1 a:hover, #navi2 a:hover {
+    text-decoration: underline;
+    background-color: darkgoldenrod;
+    color: #000;
+  }
+  
+  /*Liikutaan UL pisteet 15% divin sisään */
+  #navi1 ul, #navi2 ul {
+    padding-left: 15%;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+    
+/*footer style */  
+.footer {
+    background-color: rgb(109, 111, 111);
+    font-weight: bolder;
+    width:100%;
+    }
+
+.footer p {
+  color:rgb(18, 17, 17);
+  text-align: right;
+}
+
+  /* Media query for smaller screens || Responsiivi*/
+@media (max-width: 768px) {
+  #sailio {
+    width: auto;
+    padding: 10px;
+  }
+
+  #navi1, #navi2 {
+    width: 100%;
+    float: none;
+    margin-bottom: 10px;
+  }
+
+  #sisalto {
+    width: auto;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  #navi1 ul, #navi2 ul {
+    background-color: #fff;
+  }
+
+  #navi1 h2, #navi2 h2 {
+    font-size: 16px;
+  }
+}
+
+
+
+
+
+
+
+
